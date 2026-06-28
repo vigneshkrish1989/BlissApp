@@ -20,6 +20,9 @@ class mainVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        print("Hello GIT!")
+        
         self.parse.parseEmojis(completion: {
             result in
             self.emojiArr = result
