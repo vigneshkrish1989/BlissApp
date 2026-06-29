@@ -18,6 +18,11 @@ class emojiListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    
+        
+        
+        print("Heyyy!!")
+        
         print("Emoji Commit!")
         // Do any additional setup after loading the view.
         self.title = "EMOJIS LIST"
