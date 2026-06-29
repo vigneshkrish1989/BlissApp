@@ -17,7 +17,7 @@ class avatarListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("Hello Avatarrr!")
+        print("Hello Ava!")
         // Do any additional setup after loading the view.
         self.title = "AVATARS LIST"
         self.parse.parseUserAvatar(completion: {
