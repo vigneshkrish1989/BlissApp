@@ -21,6 +21,8 @@ class repoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("REPO VIEW")
+        
         // Do any additional setup after loading the view.
         self.title = "APPLE REPOS"
         self.loadData(page: self.page, size: self.size)
