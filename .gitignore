@@ -54,3 +54,6 @@ playground.xcworkspace
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/test_output
+
+## Ignore User Interface state
+.xcuserstate
