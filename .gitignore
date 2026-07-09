@@ -1,0 +1,56 @@
+# ==========================================
+# Xcode & iOS Core Exclusions
+# ==========================================
+
+## Build generated files
+build/
+DerivedData/
+
+## User settings (personal window layouts, open tabs, active breakpoints)
+xcuserdata/
+
+## Architecture & header maps
+*.hmap
+
+## App packaging artifacts
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+## Playgrounds & Workspace logs
+timeline.xctimeline
+playground.xcworkspace
+
+## Other Xcode internal configurations
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# ==========================================
+# Package Managers
+# ==========================================
+
+## Swift Package Manager (SPM)
+.build/
+.swiftpm/
+
+## CocoaPods (Optional)
+## Uncomment the line below if you do NOT want to check your Pods source code into Git
+ Pods/
+
+## Carthage (Optional)
+## Uncomment the line below if you use Carthage and don't want to track its dependencies
+# Carthage/Build/
+
+# ==========================================
+# Operating System & IDE Tools
+# ==========================================
+
+## macOS System Files
+.DS_Store
+*.icloud
+
+## Fastlane (Automated deployments)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output
